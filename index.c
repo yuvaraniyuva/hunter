@@ -1,18 +1,22 @@
-#include <stdio.h>
-int main(void)
+#include<stdio.h>
+int main()
 {
-int a[100],n,i;
-scanf("%d",&n);
-for(i=0;i<n;i++)
-{
-scanf("%d",&a[i]);
+long int arr[100000],N,i;
+int f=0;
+printf("enter a no  ");
+scanf("%ld",&N);
+for(i=0;i<N;i++)
+	{
+scanf("%ld",&arr[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<N;i++)
 {
-if(a[i]==i)
+if(arr[i]==i)		
 {
-printf("%d ",i);
+f=1;
+printf(" %d ",i);
 }
-}
-return 0;
+}	
+if(f==0)
+printf("-1");
 }
