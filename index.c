@@ -3,7 +3,6 @@ int main()
 {
 long int arr[100000],N,i;
 int f=0;
-printf("enter a no  ");
 scanf("%ld",&N);
 for(i=0;i<N;i++)
 	{
