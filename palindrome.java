@@ -1,6 +1,6 @@
 import java.util.Stack;
 import java.util.Scanner;
-class PalindromeTest {
+class PalindromeTesting {
 
     public static void main(String[] args) {
 
